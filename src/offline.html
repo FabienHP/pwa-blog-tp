@@ -1,0 +1,25 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="app-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PWA Blog</title>
+  </head>
+
+  <body>
+    <div class="titleBar">
+      <a href="offline.html" class="imageBox">
+        <img src="./app-icon.png" />
+      </a>
+      <h1>PWA Blog</h1>
+      <span id="appStatus" class="offline"></span>
+    </div>
+
+    <div id="posts"></div>
+
+    <script src="innerPosts.js"></script>
+    <script src="getPosts.js"></script>
+  </body>
+</html>
